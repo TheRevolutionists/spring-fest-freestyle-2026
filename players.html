@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Players • Spring Fest Freestyle Tourney 2026</title>
+  <meta name="description" content="Players participating in the Spring Fest Freestyle Tourney 2026." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-sparkles" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Spring Fest Home">
+      <span class="brand-mark">🌸</span>
+      <span class="brand-text">
+        <span class="brand-title">Spring Fest</span>
+        <span class="brand-subtitle">Freestyle Tourney 2026</span>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link active" href="players.html">Players</a>
+      <a class="nav-cta" id="registerTopBtn" href="#" target="_blank" rel="noreferrer">Register</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <div class="section-head">
+        <h1 class="page-title">Players</h1>
+        <div class="section-actions">
+          <button class="btn ghost" id="shufflePlayersBtn" type="button">Shuffle Cards</button>
+          <button class="btn ghost" id="toggleCompactBtn" type="button">Toggle Compact</button>
+        </div>
+      </div>
+
+      <div class="register-card reveal">
+        <div class="register-left">
+          <h2>Want in?</h2>
+          <p class="muted">
+            Hit the form, drop your details, and you’re set. This page will update once you add players.
+          </p>
+          <div class="register-actions">
+            <a class="btn primary" id="registerPlayersBtn" href="#" target="_blank" rel="noreferrer">Register</a>
+            <button class="btn" id="copyFormLinkBtn" type="button">Copy Form Link</button>
+          </div>
+          <p class="tiny">
+            Tip: put your Google Form URL in <b>script.js</b> (REGISTER_URL).
+          </p>
+        </div>
+
+        <div class="register-right">
+          <div class="mini-stats">
+            <div class="stat">
+              <div class="stat-num" id="playerCount">0</div>
+              <div class="stat-label">Players</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">2026</div>
+              <div class="stat-label">Season</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">🌷</div>
+              <div class="stat-label">Theme</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar reveal">
+        <div class="search">
+          <input id="playerSearch" type="search" placeholder="Search players (name, region, style)..." autocomplete="off" />
+        </div>
+        <div class="filters">
+          <select id="regionFilter">
+            <option value="all">All regions</option>
+            <option value="NA">NA</option>
+            <option value="EU">EU</option>
+            <option value="OCE">OCE</option>
+            <option value="SAM">SAM</option>
+            <option value="ME">ME</option>
+            <option value="ASIA">ASIA</option>
+          </select>
+          <select id="styleFilter">
+            <option value="all">All styles</option>
+            <option value="Resets">Resets</option>
+            <option value="Ground">Ground</option>
+            <option value="Ceiling">Ceiling</option>
+            <option value="Musty">Musty</option>
+            <option value="Pinch">Pinch</option>
+            <option value="Creative">Creative</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="players-grid" id="playersGrid" aria-label="Players list">
+        <!-- injected by JS -->
+      </div>
+    </section>
+
+    <section class="section" id="questions">
+      <div class="section-head">
+        <h2>Google Form Questions (copy/paste)</h2>
+      </div>
+
+      <div class="panel reveal">
+        <p class="muted">Make a Google Form and use these questions. I wrote them so you get everything you need for a clean bracket + hype intros.</p>
+
+        <div class="questions">
+          <div class="q"><span class="q-num">1</span> Player / Gamertag name (exact spelling)</div>
+          <div class="q"><span class="q-num">2</span> Epic ID (or platform ID) + platform (PC / PS / Xbox / Switch)</div>
+          <div class="q"><span class="q-num">3</span> Region (NA / EU / OCE / SAM / ME / ASIA)</div>
+          <div class="q"><span class="q-num">4</span> Time zone + best availability window</div>
+          <div class="q"><span class="q-num">5</span> Discord username (required for match coordination)</div>
+          <div class="q"><span class="q-num">6</span> Twitch / YouTube / TikTok links (optional but recommended)</div>
+          <div class="q"><span class="q-num">7</span> Freestyle specialty (Resets / Ground / Ceiling / Pinches / Musty / Creative)</div>
+          <div class="q"><span class="q-num">8</span> Your signature shot (describe it in 1 sentence)</div>
+          <div class="q"><span class="q-num">9</span> Top 3 clips (links) OR one highlight montage link</div>
+          <div class="q"><span class="q-num">10</span> Favorite car + decal / wheels (for your intro card)</div>
+          <div class="q"><span class="q-num">11</span> Fun fact about you (keep it PG)</div>
+          <div class="q"><span class="q-num">12</span> What’s your “walkout song” vibe? (genre or 1 song)</div>
+          <div class="q"><span class="q-num">13</span> Do you agree to be featured on stream / socials if available? (Yes/No)</div>
+          <div class="q"><span class="q-num">14</span> Are you okay with match replays being used in edits? (Yes/No)</div>
+          <div class="q"><span class="q-num">15</span> Anything the host should know? (notes, constraints, etc.)</div>
+        </div>
+
+        <div class="copy-row">
+          <button class="btn primary" id="copyQuestionsBtn" type="button">Copy Questions</button>
+          <span class="tiny muted" id="copyQuestionsStatus"></span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="yearNow"></span> Spring Fest Freestyle Tourney</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="#questions">Form Questions</a>
+        <a href="#" id="registerFooterBtn" target="_blank" rel="noreferrer">Register</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
