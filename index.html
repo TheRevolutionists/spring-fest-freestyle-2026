@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spring Fest Freestyle Tourney 2026</title>
+  <meta name="description" content="Spring Fest Freestyle Tourney 2026 — bracket, players, and registration." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-sparkles" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Spring Fest Home">
+      <span class="brand-mark">🌸</span>
+      <span class="brand-text">
+        <span class="brand-title">Spring Fest</span>
+        <span class="brand-subtitle">Freestyle Tourney 2026</span>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a class="nav-link active" href="index.html">Home</a>
+      <a class="nav-link" href="players.html">Players</a>
+      <a class="nav-cta" id="registerTopBtn" href="#" target="_blank" rel="noreferrer">Register</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <div class="pill">
+          <span class="dot dot-pink"></span>
+          <span class="dot dot-mint"></span>
+          <span class="dot dot-lav"></span>
+          <span>Pastel vibes • Clean clips • Big resets</span>
+        </div>
+
+        <h1>
+          Spring Fest Freestyle Tourney <span class="year">2026</span>
+        </h1>
+
+        <p class="lead">
+          Welcome to the <b>Spring Fest Freestyle Tourney 2026</b> — a chill, pastel-themed Rocket League freestyle bracket
+          where style points matter and clips are the currency.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#bracket">View Bracket</a>
+          <a class="btn" href="players.html">Meet the Players</a>
+          <button class="btn ghost" id="copySiteLinkBtn" type="button">Copy Site Link</button>
+        </div>
+
+        <div class="quick-info">
+          <div class="info-card reveal">
+            <div class="info-icon">🎥</div>
+            <div>
+              <div class="info-title">Format</div>
+              <div class="info-text">1v1 Freestyle • Single Elim • Best-of-3 (editable)</div>
+            </div>
+          </div>
+          <div class="info-card reveal">
+            <div class="info-icon">🌎</div>
+            <div>
+              <div class="info-title">Regions</div>
+              <div class="info-text">NA / EU / OCE / SAM / ME (you decide rules)</div>
+            </div>
+          </div>
+          <div class="info-card reveal">
+            <div class="info-icon">🏆</div>
+            <div>
+              <div class="info-title">Goal</div>
+              <div class="info-text">Most creative, cleanest execution, biggest bangers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="glass-card reveal">
+          <h2 class="card-title">How to join</h2>
+          <ol class="steps">
+            <li>Hit <b>Register</b> and fill out the form.</li>
+            <li>Submit your best clips / links if needed.</li>
+            <li>Show up on time. Bring the vibes.</li>
+          </ol>
+          <div class="card-actions">
+            <a class="btn primary" id="registerHeroBtn" href="#" target="_blank" rel="noreferrer">Register Now</a>
+            <a class="btn" href="players.html#questions">View Form Questions</a>
+          </div>
+          <p class="tiny">
+            Admin note: you can change dates/rules anytime — this site is built to be easy to edit.
+          </p>
+        </div>
+
+        <div class="floating-badges" aria-hidden="true">
+          <div class="badge b1">🍓</div>
+          <div class="badge b2">🫧</div>
+          <div class="badge b3">🌼</div>
+          <div class="badge b4">🍡</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bracket" class="section">
+      <div class="section-head">
+        <h2>Bracket</h2>
+        <div class="section-actions">
+          <button class="btn ghost" id="resetBracketBtn" type="button">Reset Demo Names</button>
+          <button class="btn ghost" id="toggleWinnersBtn" type="button">Toggle Winners</button>
+        </div>
+      </div>
+
+      <p class="muted">
+        This bracket is a clean template. Replace names in <b>script.js</b> (players list) or edit directly on the page.
+      </p>
+
+      <div class="bracket-wrap reveal">
+        <div class="bracket" id="bracketEl" aria-label="Tournament bracket">
+          <!-- Round 1 -->
+          <div class="round">
+            <div class="round-title">Round 1</div>
+
+            <div class="match" data-match="r1m1">
+              <button class="slot" data-slot="a" type="button"><span class="name">Player 1</span><span class="tag">A</span></button>
+              <button class="slot" data-slot="b" type="button"><span class="name">Player 2</span><span class="tag">B</span></button>
+              <div class="match-meta">
+                <span class="meta-chip">Bo3</span>
+                <span class="meta-chip">Freestyle</span>
+              </div>
+            </div>
+
+            <div class="match" data-match="r1m2">
+              <button class="slot" data-slot="a" type="button"><span class="name">Player 3</span><span class="tag">A</span></button>
+              <button class="slot" data-slot="b" type="button"><span class="name">Player 4</span><span class="tag">B</span></button>
+              <div class="match-meta">
+                <span class="meta-chip">Bo3</span>
+                <span class="meta-chip">Freestyle</span>
+              </div>
+            </div>
+
+            <div class="match" data-match="r1m3">
+              <button class="slot" data-slot="a" type="button"><span class="name">Player 5</span><span class="tag">A</span></button>
+              <button class="slot" data-slot="b" type="button"><span class="name">Player 6</span><span class="tag">B</span></button>
+              <div class="match-meta">
+                <span class="meta-chip">Bo3</span>
+                <span class="meta-chip">Freestyle</span>
+              </div>
+            </div>
+
+            <div class="match" data-match="r1m4">
+              <button class="slot" data-slot="a" type="button"><span class="name">Player 7</span><span class="tag">A</span></button>
+              <button class="slot" data-slot="b" type="button"><span class="name">Player 8</span><span class="tag">B</span></button>
+              <div class="match-meta">
+                <span class="meta-chip">Bo3</span>
+                <span class="meta-chip">Freestyle</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Semis -->
+          <div class="round">
+            <div class="round-title">Semis</div>
+
+            <div class="match" data-match="r2m1">
+              <button class="slot" data-slot="a" type="button"><span class="name">Winner R1M1</span><span class="tag">A</span></button>
+              <button class="slot" data-slot="b" type="button"><span class="name">Winner R1M2</span><span class="tag">B</span></button>
+              <div class="match-meta">
+                <span class="meta-chip">Bo3</span>
+                <span class="meta-chip">Freestyle</span>
+              </div>
+            </div>
+
+            <div class="match" data-match="r2m2">
+              <button class="slot" data-slot="a" type="button"><span class="name">Winner R1M3</span><span class="tag">A</span></button>
+              <button class="slot" data-slot="b" type="button"><span class="name">Winner R1M4</span><span class="tag">B</span></button>
+              <div class="match-meta">
+                <span class="meta-chip">Bo3</span>
+                <span class="meta-chip">Freestyle</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Finals -->
+          <div class="round">
+            <div class="round-title">Finals</div>
+
+            <div class="match finals" data-match="r3m1">
+              <button class="slot" data-slot="a" type="button"><span class="name">Winner Semi 1</span><span class="tag">A</span></button>
+              <button class="slot" data-slot="b" type="button"><span class="name">Winner Semi 2</span><span class="tag">B</span></button>
+              <div class="match-meta">
+                <span class="meta-chip">Bo5</span>
+                <span class="meta-chip">Freestyle</span>
+              </div>
+            </div>
+
+            <div class="winner-box">
+              <div class="winner-title">Champion</div>
+              <div class="winner-name" id="championName">TBD</div>
+              <div class="confetti" aria-hidden="true"></div>
+            </div>
+          </div>
+
+          <canvas id="bracketLines" aria-hidden="true"></canvas>
+        </div>
+      </div>
+
+      <div class="callout reveal">
+        <div class="callout-icon">📝</div>
+        <div>
+          <div class="callout-title">Want more than 8 players?</div>
+          <div class="callout-text">
+            Tell me how many participants (16/32/etc) and I’ll expand the bracket layout cleanly.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Rules (quick template)</h2>
+      </div>
+
+      <div class="grid-3">
+        <div class="panel reveal">
+          <h3>Freestyle Scoring</h3>
+          <p>Judges score based on creativity, difficulty, cleanliness, and originality.</p>
+          <ul>
+            <li>Clean reset setups</li>
+            <li>Unique angles / reads</li>
+            <li>No spam / repeats</li>
+          </ul>
+        </div>
+
+        <div class="panel reveal">
+          <h3>Match Setup</h3>
+          <p>Private match, same settings for everyone.</p>
+          <ul>
+            <li>Bo3 (Finals Bo5)</li>
+            <li>5 min games</li>
+            <li>Mutators optional</li>
+          </ul>
+        </div>
+
+        <div class="panel reveal">
+          <h3>Sportsmanship</h3>
+          <p>Keep it positive. Clip wars, not ego wars.</p>
+          <ul>
+            <li>No harassment</li>
+            <li>Respect judges</li>
+            <li>Be on time</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="yearNow"></span> Spring Fest Freestyle Tourney</div>
+      <div class="footer-links">
+        <a href="players.html">Players</a>
+        <a href="#bracket">Bracket</a>
+        <a href="#" id="registerFooterBtn" target="_blank" rel="noreferrer">Register</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
