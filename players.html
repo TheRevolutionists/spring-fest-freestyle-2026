@@ -26,6 +26,7 @@
     <nav class="nav">
       <a class="nav-link" href="index.html">Home</a>
       <a class="nav-link active" href="players.html">Players</a>
+      <a class="nav-link" href="judges.html">Judges</a>
       <a class="nav-cta" id="registerTopBtn" href="#" target="_blank" rel="noreferrer">Register</a>
     </nav>
   </header>
@@ -44,15 +45,12 @@
         <div class="register-left">
           <h2>Want in?</h2>
           <p class="muted">
-            Hit the form, drop your details, and you’re set. This page will update once you add players.
+            Register and you’ll be included once entries are reviewed. This page updates as players get added.
           </p>
           <div class="register-actions">
             <a class="btn primary" id="registerPlayersBtn" href="#" target="_blank" rel="noreferrer">Register</a>
             <button class="btn" id="copyFormLinkBtn" type="button">Copy Form Link</button>
           </div>
-          <p class="tiny">
-            Tip: put your Google Form URL in <b>script.js</b> (REGISTER_URL).
-          </p>
         </div>
 
         <div class="register-right">
@@ -104,44 +102,11 @@
       </div>
     </section>
 
-    <section class="section" id="questions">
-      <div class="section-head">
-        <h2>Google Form Questions (copy/paste)</h2>
-      </div>
-
-      <div class="panel reveal">
-        <p class="muted">Make a Google Form and use these questions. I wrote them so you get everything you need for a clean bracket + hype intros.</p>
-
-        <div class="questions">
-          <div class="q"><span class="q-num">1</span> Player / Gamertag name (exact spelling)</div>
-          <div class="q"><span class="q-num">2</span> Epic ID (or platform ID) + platform (PC / PS / Xbox / Switch)</div>
-          <div class="q"><span class="q-num">3</span> Region (NA / EU / OCE / SAM / ME / ASIA)</div>
-          <div class="q"><span class="q-num">4</span> Time zone + best availability window</div>
-          <div class="q"><span class="q-num">5</span> Discord username (required for match coordination)</div>
-          <div class="q"><span class="q-num">6</span> Twitch / YouTube / TikTok links (optional but recommended)</div>
-          <div class="q"><span class="q-num">7</span> Freestyle specialty (Resets / Ground / Ceiling / Pinches / Musty / Creative)</div>
-          <div class="q"><span class="q-num">8</span> Your signature shot (describe it in 1 sentence)</div>
-          <div class="q"><span class="q-num">9</span> Top 3 clips (links) OR one highlight montage link</div>
-          <div class="q"><span class="q-num">10</span> Favorite car + decal / wheels (for your intro card)</div>
-          <div class="q"><span class="q-num">11</span> Fun fact about you (keep it PG)</div>
-          <div class="q"><span class="q-num">12</span> What’s your “walkout song” vibe? (genre or 1 song)</div>
-          <div class="q"><span class="q-num">13</span> Do you agree to be featured on stream / socials if available? (Yes/No)</div>
-          <div class="q"><span class="q-num">14</span> Are you okay with match replays being used in edits? (Yes/No)</div>
-          <div class="q"><span class="q-num">15</span> Anything the host should know? (notes, constraints, etc.)</div>
-        </div>
-
-        <div class="copy-row">
-          <button class="btn primary" id="copyQuestionsBtn" type="button">Copy Questions</button>
-          <span class="tiny muted" id="copyQuestionsStatus"></span>
-        </div>
-      </div>
-    </section>
-
     <footer class="footer">
       <div>© <span id="yearNow"></span> Spring Fest Freestyle Tourney</div>
       <div class="footer-links">
         <a href="index.html">Home</a>
-        <a href="#questions">Form Questions</a>
+        <a href="judges.html">Judges</a>
         <a href="#" id="registerFooterBtn" target="_blank" rel="noreferrer">Register</a>
       </div>
     </footer>
