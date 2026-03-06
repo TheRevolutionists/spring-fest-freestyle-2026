@@ -6,14 +6,29 @@ const PLAYERS = [
     region: "NA",
     style: "Creative",
     fun: "I'm a left handed ginger",
+    note: "",
     platform: "PC",
     socials: { twitch: "", youtube: "", tiktok: "" }
   },
   {
-    name: "Red",
+    name: "Txco",
+    region: "NA",
+    style: "TBD",
+    fun: "I own the best unlimited boost freestyle team called Tide",
+    note: "I am a player for 2 teams: Nixus and SwiFT",
+    platform: "TBD",
+    socials: {
+      twitch: "",
+      youtube: "https://www.youtube.com/@TxcoRL",
+      tiktok: "https://www.tiktok.com/@txcorl"
+    }
+  },
+  {
+    name: "To Be Determined",
     region: "TBD",
     style: "TBD",
-    fun: "To be determined until event day or bracket day.",
+    fun: "Will be finalized on event day or bracket day.",
+    note: "",
     platform: "TBD",
     socials: { twitch: "", youtube: "", tiktok: "" }
   },
@@ -22,14 +37,7 @@ const PLAYERS = [
     region: "TBD",
     style: "TBD",
     fun: "Will be finalized on event day or bracket day.",
-    platform: "TBD",
-    socials: { twitch: "", youtube: "", tiktok: "" }
-  },
-  {
-    name: "To Be Determined",
-    region: "TBD",
-    style: "TBD",
-    fun: "Will be finalized on event day or bracket day.",
+    note: "",
     platform: "TBD",
     socials: { twitch: "", youtube: "", tiktok: "" }
   }
@@ -106,13 +114,15 @@ function renderPlayers(){
     card.className = "player-card reveal";
     card.dataset.region = p.region;
     card.dataset.style = p.style;
-    card.dataset.search = `${p.name} ${p.region} ${p.style} ${p.fun} ${p.platform}`.toLowerCase();
+    card.dataset.search = `${p.name} ${p.region} ${p.style} ${p.fun} ${p.platform} ${p.note}`.toLowerCase();
 
     const links = [];
     if(p.socials?.twitch) links.push(`<a href="${p.socials.twitch}" target="_blank" rel="noreferrer">Twitch</a>`);
     if(p.socials?.youtube) links.push(`<a href="${p.socials.youtube}" target="_blank" rel="noreferrer">YouTube</a>`);
     if(p.socials?.tiktok) links.push(`<a href="${p.socials.tiktok}" target="_blank" rel="noreferrer">TikTok</a>`);
     const linksHtml = links.length ? links.join(" • ") : `<span class="muted">No socials linked yet</span>`;
+
+    const noteHtml = p.note ? `<div class="player-note"><b>Note:</b> ${p.note}</div>` : "";
 
     card.innerHTML = `
       <div class="player-top">
@@ -127,6 +137,7 @@ function renderPlayers(){
         <div class="badge-chip">🌸 2026</div>
       </div>
       <div class="player-fun"><b>Fun fact:</b> ${p.fun}</div>
+      ${noteHtml}
       <div class="player-links">${linksHtml}</div>
     `;
 
@@ -207,8 +218,7 @@ function initCountdown(){
 
   if(!daysEl || !hoursEl || !minutesEl || !secondsEl) return;
 
-  // safer browser-compatible date construction
-  const targetDate = new Date(2026, 2, 21, 0, 0, 0); // March 21, 2026
+  const targetDate = new Date(2026, 2, 21, 0, 0, 0);
 
   function updateCountdown(){
     const now = new Date();
