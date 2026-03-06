@@ -666,3 +666,9 @@ h1{
   margin: 12px 0 0;
   text-align:center;
 }
+
+.player-note{
+  margin-top: 10px;
+  font-size: 13px;
+  opacity: .85;
+}
