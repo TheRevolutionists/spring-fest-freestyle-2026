@@ -10,10 +10,10 @@ const PLAYERS = [
     socials: { twitch: "", youtube: "", tiktok: "" }
   },
   {
-    name: "To Be Determined",
+    name: "Red",
     region: "TBD",
     style: "TBD",
-    fun: "Will be finalized on event day or bracket day.",
+    fun: "To be determined until event day or bracket day.",
     platform: "TBD",
     socials: { twitch: "", youtube: "", tiktok: "" }
   },
@@ -134,7 +134,7 @@ function renderPlayers(){
   });
 
   const cnt = $("#playerCount");
-  if(cnt) cnt.textContent = "1";
+  if(cnt) cnt.textContent = "2";
 
   initReveal();
 }
@@ -207,11 +207,12 @@ function initCountdown(){
 
   if(!daysEl || !hoursEl || !minutesEl || !secondsEl) return;
 
-  const targetDate = new Date("2026-03-21T00:00:00");
+  // safer browser-compatible date construction
+  const targetDate = new Date(2026, 2, 21, 0, 0, 0); // March 21, 2026
 
   function updateCountdown(){
     const now = new Date();
-    const diff = targetDate - now;
+    const diff = targetDate.getTime() - now.getTime();
 
     if(diff <= 0){
       daysEl.textContent = "00";
