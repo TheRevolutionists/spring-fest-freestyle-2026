@@ -1,66 +1,96 @@
 const REGISTER_URL = "https://forms.gle/DRBHYJRWQcVkqXD66";
 
-const players = [
+const PLAYERS = [
   {
     name: "aethr",
-    links: [
-      "https://www.tiktok.com/@aethr.rl"
-    ],
-    funFact: "I crashed into a pole snowboarding at 40 miles an hour",
-    note: "MEOW"
+    region: "NA",
+    style: "Freestyle",
+    fun: "I crashed into a pole snowboarding at 40 miles an hour",
+    note: "MEOW",
+    platform: "TBD",
+    socials: {
+      twitch: "",
+      youtube: "",
+      tiktok: "https://www.tiktok.com/@aethr.rl"
+    }
   },
   {
     name: "Mouche",
-    links: [
-      "https://vm.tiktok.com/ZNR9rgXrv/"
-    ],
-    funFact: "I'm the best resetter",
-    note: "i dont mind playing on the other persons servers so just use theirs :)"
+    region: "NA",
+    style: "Freestyle",
+    fun: "I'm the best resetter",
+    note: "i dont mind playing on the other persons servers so just use theirs :)",
+    platform: "TBD",
+    socials: {
+      twitch: "",
+      youtube: "",
+      tiktok: "https://vm.tiktok.com/ZNR9rgXrv/"
+    }
   },
   {
     name: "GGM1 Shay Fanboy",
-    links: [
-      "@elyas_rl"
-    ],
-    funFact: "I've created my own mechanic: Horsedash reset ^^",
-    note: "so you hate me"
+    region: "NA",
+    style: "Freestyle",
+    fun: "I've created my own mechanic: Horsedash reset ^^",
+    note: "so you hate me",
+    platform: "PC",
+    socials: {
+      twitch: "",
+      youtube: "",
+      tiktok: ""
+    }
   },
   {
     name: "Aeroh",
-    links: [
-      "https://www.twitch.tv/Aeroh",
-      "https://youtube.com/@aerohrl",
-      "https://www.tiktok.com/t/ZP8Xq2gdS/"
-    ],
-    funFact: "I made pule blythe",
-    note: "my name is pronounced Arrow"
+    region: "NA",
+    style: "Freestyle",
+    fun: "I made pule blythe",
+    note: "My name is pronounced Arrow",
+    platform: "PC",
+    socials: {
+      twitch: "https://www.twitch.tv/Aeroh",
+      youtube: "https://youtube.com/@aerohrl",
+      tiktok: "https://www.tiktok.com/t/ZP8Xq2gdS/"
+    }
   },
   {
     name: "Txco",
-    links: [
-      "https://www.tiktok.com/@txcorl",
-      "https://www.youtube.com/@TxcoRL"
-    ],
-    funFact: "I'm a left handed ginger",
-    note: "i've changed settings so i might be a bit rusty, i'm KBM and play for Nixus"
+    region: "NA",
+    style: "Freestyle",
+    fun: "I'm a left handed ginger",
+    note: "Player for Nixus, a bit rusty, KBM",
+    platform: "KBM",
+    socials: {
+      twitch: "",
+      youtube: "https://www.youtube.com/@TxcoRL",
+      tiktok: "https://www.tiktok.com/@txcorl"
+    }
   },
   {
     name: "Nevee",
-    links: [
-      "https://www.twitch.tv/astronevee",
-      "https://youtube.com/@neveer",
-      "https://www.tiktok.com/@nevee.rl"
-    ],
-    funFact: "I learned all of the country flags in the world and love geography",
-    note: "Pronounced NEV-E (E like the alphabet)"
+    region: "NA",
+    style: "Freestyle",
+    fun: "I learned all of the country flags in the world and love geography",
+    note: "Pronounced NEV-E (E like the alphabet)",
+    platform: "KBM",
+    socials: {
+      twitch: "https://www.twitch.tv/astronevee",
+      youtube: "https://youtube.com/@neveer",
+      tiktok: "https://www.tiktok.com/@nevee.rl"
+    }
   },
   {
     name: "Nomad",
-    links: [
-      "https://www.youtube.com/@Nomadicalisticallycool"
-    ],
-    funFact: "I own the best unlimited boost freestyle team called Tide",
-    note: "I play for Nixus and SwiFT"
+    region: "NA",
+    style: "Freestyle",
+    fun: "I own the best unlimited boost freestyle team called Tide",
+    note: "Player for Nixus and SwiFT",
+    platform: "PC",
+    socials: {
+      twitch: "",
+      youtube: "https://www.youtube.com/@Nomadicalisticallycool",
+      tiktok: ""
+    }
   }
 ];
 
