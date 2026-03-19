@@ -1,7 +1,22 @@
 const REGISTER_URL = "https://forms.gle/DRBHYJRWQcVkqXD66";
 
 const PLAYERS = [
-  {
+
+{
+name: "Frontalpanda",
+region: "TBD",
+style: "Freestyle",
+fun: "I crashed into a pole snowboarding at 40 miles an hour",
+note: "MEOW",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: ""
+}
+},
+
+{
 name: "Aeroh",
 region: "TBD",
 style: "Freestyle",
@@ -55,22 +70,8 @@ twitch: "https://www.twitch.tv/astronevee",
 youtube: "https://youtube.com/@neveerl",
 tiktok: "https://www.tiktok.com/@nevee.rl"
 }
-},
+}
 
-{
-name: "Nevee",
-region: "TBD",
-style: "Freestyle",
-fun: "I play on Keyboard and Mouse as one of the very few",
-note: "Pronounced NEV-E (like the alphabet E)",
-platform: "KBM",
-socials: {
-twitch: "https://www.twitch.tv/astronevee",
-youtube: "https://youtube.com/@neveerl",
-tiktok: "https://www.tiktok.com/@nevee.rl"
-}
-}
-  
 ];
 
 const $ = (sel, root = document) => root.querySelector(sel);
