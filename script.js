@@ -2,96 +2,75 @@ const REGISTER_URL = "https://forms.gle/DRBHYJRWQcVkqXD66";
 
 const PLAYERS = [
   {
-    name: "aethr",
-    region: "NA",
-    style: "Freestyle",
-    fun: "I crashed into a pole snowboarding at 40 miles an hour",
-    note: "MEOW",
-    platform: "TBD",
-    socials: {
-      twitch: "",
-      youtube: "",
-      tiktok: "https://www.tiktok.com/@aethr.rl"
-    }
-  },
-  {
-    name: "Mouche",
-    region: "NA",
-    style: "Freestyle",
-    fun: "I'm the best resetter",
-    note: "i dont mind playing on the other persons servers so just use theirs :)",
-    platform: "TBD",
-    socials: {
-      twitch: "",
-      youtube: "",
-      tiktok: "https://vm.tiktok.com/ZNR9rgXrv/"
-    }
-  },
-  {
-    name: "GGM1 Shay Fanboy",
-    region: "NA",
-    style: "Freestyle",
-    fun: "I've created my own mechanic: Horsedash reset ^^",
-    note: "so you hate me",
-    platform: "PC",
-    socials: {
-      twitch: "",
-      youtube: "",
-      tiktok: ""
-    }
-  },
-  {
-    name: "Aeroh",
-    region: "NA",
-    style: "Freestyle",
-    fun: "I made pule blythe",
-    note: "My name is pronounced Arrow",
-    platform: "PC",
-    socials: {
-      twitch: "https://www.twitch.tv/Aeroh",
-      youtube: "https://youtube.com/@aerohrl",
-      tiktok: "https://www.tiktok.com/t/ZP8Xq2gdS/"
-    }
-  },
-  {
-    name: "Txco",
-    region: "NA",
-    style: "Freestyle",
-    fun: "I'm a left handed ginger",
-    note: "Player for Nixus, a bit rusty, KBM",
-    platform: "KBM",
-    socials: {
-      twitch: "",
-      youtube: "https://www.youtube.com/@TxcoRL",
-      tiktok: "https://www.tiktok.com/@txcorl"
-    }
-  },
-  {
-    name: "Nevee",
-    region: "NA",
-    style: "Freestyle",
-    fun: "I learned all of the country flags in the world and love geography",
-    note: "Pronounced NEV-E (E like the alphabet)",
-    platform: "KBM",
-    socials: {
-      twitch: "https://www.twitch.tv/astronevee",
-      youtube: "https://youtube.com/@neveer",
-      tiktok: "https://www.tiktok.com/@nevee.rl"
-    }
-  },
-  {
-    name: "Nomad",
-    region: "NA",
-    style: "Freestyle",
-    fun: "I own the best unlimited boost freestyle team called Tide",
-    note: "Player for Nixus and SwiFT",
-    platform: "PC",
-    socials: {
-      twitch: "",
-      youtube: "https://www.youtube.com/@Nomadicalisticallycool",
-      tiktok: ""
-    }
-  }
+name: "Aeroh",
+region: "TBD",
+style: "Freestyle",
+fun: "I learned all of the country flags in the world and love geography",
+note: "My name is pronounced Arrow",
+platform: "TBD",
+socials: {
+twitch: "https://www.twitch.tv/Aeroh",
+youtube: "https://youtube.com/@aeroh",
+tiktok: "https://www.tiktok.com/t/ZP8Xq2gdS/"
+}
+},
+
+{
+name: "GGM1 Shay Fanboy",
+region: "NA",
+style: "Freestyle",
+fun: "Im a left handed ginger",
+note: "",
+platform: "PC",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: ""
+}
+},
+
+{
+name: "Txco",
+region: "NA",
+style: "Freestyle",
+fun: "I own the best unlimited boost freestyle team called Tide",
+note: "Player for teams Nixus and SwiFT",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "https://www.youtube.com/@TxcoRL",
+tiktok: "https://www.tiktok.com/@txcorl"
+}
+},
+
+{
+name: "Nevee",
+region: "TBD",
+style: "Freestyle",
+fun: "I play on Keyboard and Mouse as one of the very few",
+note: "Pronounced NEV-E (like the alphabet E)",
+platform: "KBM",
+socials: {
+twitch: "https://www.twitch.tv/astronevee",
+youtube: "https://youtube.com/@neveerl",
+tiktok: "https://www.tiktok.com/@nevee.rl"
+}
+},
+
+{
+name: "Nevee",
+region: "TBD",
+style: "Freestyle",
+fun: "I play on Keyboard and Mouse as one of the very few",
+note: "Pronounced NEV-E (like the alphabet E)",
+platform: "KBM",
+socials: {
+twitch: "https://www.twitch.tv/astronevee",
+youtube: "https://youtube.com/@neveerl",
+tiktok: "https://www.tiktok.com/@nevee.rl"
+}
+}
+  
 ];
 
 const $ = (sel, root = document) => root.querySelector(sel);
