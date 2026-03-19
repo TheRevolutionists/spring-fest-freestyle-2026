@@ -3,20 +3,6 @@ const REGISTER_URL = "https://forms.gle/DRBHYJRWQcVkqXD66";
 const PLAYERS = [
 
 {
-name: "Frontalpanda",
-region: "TBD",
-style: "Freestyle",
-fun: "I crashed into a pole snowboarding at 40 miles an hour",
-note: "MEOW",
-platform: "TBD",
-socials: {
-twitch: "",
-youtube: "",
-tiktok: ""
-}
-},
-
-{
 name: "Aeroh",
 region: "TBD",
 style: "Freestyle",
