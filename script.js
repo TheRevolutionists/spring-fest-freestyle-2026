@@ -1,77 +1,67 @@
 const REGISTER_URL = "https://forms.gle/DRBHYJRWQcVkqXD66";
 
-const PLAYERS = [
-
-{
-name: "Frontalpanda",
-region: "TBD",
-style: "Freestyle",
-fun: "I crashed into a pole snowboarding at 40 miles an hour",
-note: "MEOW",
-platform: "TBD",
-socials: {
-twitch: "",
-youtube: "",
-tiktok: ""
-}
-},
-
-{
-name: "Aeroh",
-region: "TBD",
-style: "Freestyle",
-fun: "I learned all of the country flags in the world and love geography",
-note: "My name is pronounced Arrow",
-platform: "TBD",
-socials: {
-twitch: "https://www.twitch.tv/Aeroh",
-youtube: "https://youtube.com/@aeroh",
-tiktok: "https://www.tiktok.com/t/ZP8Xq2gdS/"
-}
-},
-
-{
-name: "GGM1 Shay Fanboy",
-region: "NA",
-style: "Freestyle",
-fun: "Im a left handed ginger",
-note: "",
-platform: "PC",
-socials: {
-twitch: "",
-youtube: "",
-tiktok: ""
-}
-},
-
-{
-name: "Txco",
-region: "NA",
-style: "Freestyle",
-fun: "I own the best unlimited boost freestyle team called Tide",
-note: "Player for teams Nixus and SwiFT",
-platform: "TBD",
-socials: {
-twitch: "",
-youtube: "https://www.youtube.com/@TxcoRL",
-tiktok: "https://www.tiktok.com/@txcorl"
-}
-},
-
-{
-name: "Nevee",
-region: "TBD",
-style: "Freestyle",
-fun: "I play on Keyboard and Mouse as one of the very few",
-note: "Pronounced NEV-E (like the alphabet E)",
-platform: "KBM",
-socials: {
-twitch: "https://www.twitch.tv/astronevee",
-youtube: "https://youtube.com/@neveerl",
-tiktok: "https://www.tiktok.com/@nevee.rl"
-}
-}
-
+const players = [
+  {
+    name: "aethr",
+    links: [
+      "https://www.tiktok.com/@aethr.rl"
+    ],
+    funFact: "I crashed into a pole snowboarding at 40 miles an hour",
+    note: "MEOW"
+  },
+  {
+    name: "Mouche",
+    links: [
+      "https://vm.tiktok.com/ZNR9rgXrv/"
+    ],
+    funFact: "I'm the best resetter",
+    note: "i dont mind playing on the other persons servers so just use theirs :)"
+  },
+  {
+    name: "GGM1 Shay Fanboy",
+    links: [
+      "@elyas_rl"
+    ],
+    funFact: "I've created my own mechanic: Horsedash reset ^^",
+    note: "so you hate me"
+  },
+  {
+    name: "Aeroh",
+    links: [
+      "https://www.twitch.tv/Aeroh",
+      "https://youtube.com/@aerohrl",
+      "https://www.tiktok.com/t/ZP8Xq2gdS/"
+    ],
+    funFact: "I made pule blythe",
+    note: "my name is pronounced Arrow"
+  },
+  {
+    name: "Txco",
+    links: [
+      "https://www.tiktok.com/@txcorl",
+      "https://www.youtube.com/@TxcoRL"
+    ],
+    funFact: "I'm a left handed ginger",
+    note: "i've changed settings so i might be a bit rusty, i'm KBM and play for Nixus"
+  },
+  {
+    name: "Nevee",
+    links: [
+      "https://www.twitch.tv/astronevee",
+      "https://youtube.com/@neveer",
+      "https://www.tiktok.com/@nevee.rl"
+    ],
+    funFact: "I learned all of the country flags in the world and love geography",
+    note: "Pronounced NEV-E (E like the alphabet)"
+  },
+  {
+    name: "Nomad",
+    links: [
+      "https://www.youtube.com/@Nomadicalisticallycool"
+    ],
+    funFact: "I own the best unlimited boost freestyle team called Tide",
+    note: "I play for Nixus and SwiFT"
+  }
 ];
 
 const $ = (sel, root = document) => root.querySelector(sel);
