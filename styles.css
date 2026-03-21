@@ -284,7 +284,7 @@ h1{
   position:relative;
   padding: 18px;
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 0.9fr 1fr;
   gap: 18px;
   min-height: 420px;
 }
@@ -297,6 +297,10 @@ h1{
   flex-direction:column;
   gap: 14px;
   position:relative;
+}
+.finals-round{
+  justify-content:center;
+  gap: 18px;
 }
 .round-title{
   font-weight: 900;
