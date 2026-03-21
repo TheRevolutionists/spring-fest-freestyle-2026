@@ -56,6 +56,48 @@ twitch: "https://www.twitch.tv/astronevee",
 youtube: "https://youtube.com/@neveerl",
 tiktok: "https://www.tiktok.com/@nevee.rl"
 }
+},
+
+{
+name: "bean luvs lauvey",
+region: "TBD",
+style: "Freestyle",
+fun: "i memorized 200 digits of pi in about 40 mins",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: "https://www.tiktok.com/@beanrl?_r=1&_t=ZP-94oIhildA46"
+}
+},
+
+{
+name: "noodlez",
+region: "TBD",
+style: "Freestyle",
+fun: "Just a random guy who can occasonally hit a clip",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "https://www.youtube.com/@noodlez-lmao",
+tiktok: "https://www.tiktok.com/@noodlez.lmao"
+}
+},
+
+{
+name: "tortoise",
+region: "TBD",
+style: "Freestyle",
+fun: "beserker",
+note: "red told me to join",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: ""
+}
 }
 
 ];
@@ -255,3 +297,4 @@ initBracketNoOp();
 }
 
 document.addEventListener("DOMContentLoaded", boot);
+
