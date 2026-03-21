@@ -443,6 +443,16 @@ h1{
 }
 .panel ul{ margin: 10px 0 0; padding-left: 18px; opacity:.9; }
 
+.fun-moment-img{
+  display:block;
+  max-width: min(100%, 720px);
+  height: auto;
+  margin: 0 auto;
+  border-radius: var(--radius2);
+  border: 1px solid var(--stroke);
+  box-shadow: 0 16px 35px rgba(31,36,48,.1);
+}
+
 .footer{
   margin-top: 44px;
   padding-top: 18px;
