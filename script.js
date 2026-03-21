@@ -3,66 +3,10 @@ const REGISTER_URL = "https://forms.gle/DRBHYJRWQcVkqXD66";
 const PLAYERS = [
 
 {
-name: "Aeroh",
+name: "bean luvs laufey",
 region: "TBD",
 style: "Freestyle",
-fun: "I learned all of the country flags in the world and love geography",
-note: "My name is pronounced Arrow",
-platform: "TBD",
-socials: {
-twitch: "https://www.twitch.tv/Aeroh",
-youtube: "https://youtube.com/@aeroh",
-tiktok: "https://www.tiktok.com/t/ZP8Xq2gdS/"
-}
-},
-
-{
-name: "GGM1 Shay Fanboy",
-region: "NA",
-style: "Freestyle",
-fun: "Im a left handed ginger",
-note: "",
-platform: "PC",
-socials: {
-twitch: "",
-youtube: "",
-tiktok: ""
-}
-},
-
-{
-name: "Txco",
-region: "NA",
-style: "Freestyle",
-fun: "I own the best unlimited boost freestyle team called Tide",
-note: "Player for teams Nixus and SwiFT",
-platform: "TBD",
-socials: {
-twitch: "",
-youtube: "https://www.youtube.com/@TxcoRL",
-tiktok: "https://www.tiktok.com/@txcorl"
-}
-},
-
-{
-name: "Nevee",
-region: "TBD",
-style: "Freestyle",
-fun: "I play on Keyboard and Mouse as one of the very few",
-note: "Pronounced NEV-E (like the alphabet E)",
-platform: "KBM",
-socials: {
-twitch: "https://www.twitch.tv/astronevee",
-youtube: "https://youtube.com/@neveerl",
-tiktok: "https://www.tiktok.com/@nevee.rl"
-}
-},
-
-{
-name: "bean luvs lauvey",
-region: "TBD",
-style: "Freestyle",
-fun: "i memorized 200 digits of pi in about 40 mins",
+fun: "i memorized 200 digits of pi in about 40 minutes😜",
 note: "",
 platform: "TBD",
 socials: {
@@ -73,10 +17,10 @@ tiktok: "https://www.tiktok.com/@beanrl?_r=1&_t=ZP-94oIhildA46"
 },
 
 {
-name: "noodlez",
+name: "Noodlez",
 region: "TBD",
 style: "Freestyle",
-fun: "Just a random guy who can occasonally hit a clip",
+fun: "Just a random guy that can occasionally hit a clip",
 note: "",
 platform: "TBD",
 socials: {
@@ -87,16 +31,184 @@ tiktok: "https://www.tiktok.com/@noodlez.lmao"
 },
 
 {
-name: "tortoise",
+name: "Tortoise",
 region: "TBD",
 style: "Freestyle",
 fun: "beserker",
-note: "red told me to join",
+note: "",
 platform: "TBD",
 socials: {
 twitch: "",
 youtube: "",
 tiktok: ""
+}
+},
+
+{
+name: "aethr",
+region: "TBD",
+style: "Freestyle",
+fun: "im the best resetter",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: "https://www.tiktok.com/@aethr.rl"
+}
+},
+
+{
+name: "Mouche",
+region: "TBD",
+style: "Freestyle",
+fun: "I've created my own mechanic : Horsedash resey ^^",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: "https://vm.tiktok.com/ZNR9rgXrv/"
+}
+},
+
+{
+name: "Hero",
+region: "TBD",
+style: "Freestyle",
+fun: "I made pule blythe",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: "@elyas_rl"
+}
+},
+
+{
+name: "GGM1 Shay Fanboy",
+region: "TBD",
+style: "Freestyle",
+fun: "Im a left handed ginger",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: "idc rn"
+}
+},
+
+{
+name: "Aeroh",
+region: "TBD",
+style: "Freestyle",
+fun: "i learned all of the country flags in the world and love geography",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "https://www.twitch.tv/Aeroh",
+youtube: "https://youtube.com/@aerohrl?si=Jf-Wnxku6Of6XBNL",
+tiktok: "https://www.tiktok.com/t/ZP8Xq2gdS/"
+}
+},
+
+{
+name: "polyomorphic tet",
+region: "TBD",
+style: "Freestyle",
+fun: "i uhhh can flip reset fr fr",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: "https://www.tiktok.com/@carelesspopcorn"
+}
+},
+
+{
+name: "april",
+region: "TBD",
+style: "Freestyle",
+fun: "i eat strawberry stems",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: "https://www.tiktok.com/@april_rl_"
+}
+},
+
+{
+name: "Txco",
+region: "TBD",
+style: "Freestyle",
+fun: "I own the best unlimited boost freestyle team called Tide",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "https://www.youtube.com/@TxcoRL",
+tiktok: "https://www.tiktok.com/@txcorl"
+}
+},
+
+{
+name: "Osuea",
+region: "TBD",
+style: "Freestyle",
+fun: "Uhh i like strawberry milk",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: "@Osuearl"
+}
+},
+
+{
+name: "Nevee",
+region: "TBD",
+style: "Freestyle",
+fun: "I play on Keyboard and Mouse as one of the very few.",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "https://www.twitch.tv/astronevee",
+youtube: "https://youtube.com/@neveerl?si=xkqFzVnw-jdQOCCu",
+tiktok: "https://www.tiktok.com/@nevee.rl?_r=1&_t=ZN-94VtGHRMlvi"
+}
+},
+
+{
+name: "Nomad",
+region: "TBD",
+style: "Freestyle",
+fun: "i have a crush on redskullz rl",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "https://www.youtube.com/@Nomadicalisticlycool",
+tiktok: ""
+}
+},
+
+{
+name: "Sofia",
+region: "TBD",
+style: "Freestyle",
+fun: "Im totally a pro freestyler",
+note: "",
+platform: "TBD",
+socials: {
+twitch: "",
+youtube: "",
+tiktok: "https://www.tiktok.com/@sofia..rl?_r=1&_t=ZN-94rMHYehLJ0"
 }
 }
 
@@ -297,4 +409,3 @@ initBracketNoOp();
 }
 
 document.addEventListener("DOMContentLoaded", boot);
-
