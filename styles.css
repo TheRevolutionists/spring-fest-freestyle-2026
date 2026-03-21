@@ -288,8 +288,28 @@ h1{
   gap: 18px;
   min-height: 420px;
 }
+.day-brackets{
+  display:flex;
+  flex-direction:column;
+  gap: 16px;
+}
+.day-title{
+  margin: 16px 16px 0;
+  font-family: var(--fontA);
+}
+.day1-bracket .match{
+  min-height: 90px;
+}
+.day2-bracket{
+  grid-template-columns: 1fr 1fr;
+  min-height: auto;
+}
+.day2-bracket .round{
+  justify-content:center;
+}
 @media (max-width: 980px){
   .bracket{ grid-template-columns: 1fr; }
+  .day2-bracket{ grid-template-columns: 1fr; }
 }
 
 .round{
@@ -297,10 +317,6 @@ h1{
   flex-direction:column;
   gap: 14px;
   position:relative;
-}
-.finals-round{
-  justify-content:center;
-  gap: 18px;
 }
 .round-title{
   font-weight: 900;
