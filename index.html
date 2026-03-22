@@ -157,7 +157,7 @@
       <div class="section-head">
         <h2>Bracket</h2>
         <div class="section-actions">
-          <button class="btn ghost" id="toggleWinnersBtn" type="button" disabled title="Winners will be enabled once matches are played.">
+          <button class="btn ghost" id="toggleWinnersBtn" type="button" disabled title="Bracket results are shown below.">
             Toggle Winners
           </button>
         </div>
@@ -295,24 +295,41 @@
           <h3 class="day-title">Day 2 - 4 Player Bracket</h3>
           <div class="bracket day2-bracket">
             <div class="round">
-              <div class="round-title">Semifinals</div>
+              <div class="round-title">Semifinals (best of 3)</div>
 
               <div class="match">
                 <div class="slot"><span class="name">SHAY</span><span class="tag">S1</span></div>
-                <div class="slot"><span class="name">Day 1 Qualifier 2</span><span class="tag">S1</span></div>
+                <div class="slot winner"><span class="name">AEROH</span><span class="tag">S1</span></div>
+                <div class="match-meta">
+                  <span class="meta-chip">Winner: AEROH (2-0)</span>
+                  <span class="meta-chip">G1: AEROH 21.3 · SHAY 20.1</span>
+                  <span class="meta-chip">G2: AEROH 22.9 · SHAY 21.3</span>
+                </div>
               </div>
               <div class="match">
-                <div class="slot"><span class="name">Day 1 Qualifier 3</span><span class="tag">S2</span></div>
-                <div class="slot"><span class="name">Day 1 Qualifier 4</span><span class="tag">S2</span></div>
+                <div class="slot"><span class="name">RED</span><span class="tag">S2</span></div>
+                <div class="slot winner"><span class="name">NEVEE</span><span class="tag">S2</span></div>
+                <div class="match-meta">
+                  <span class="meta-chip">Winner: NEVEE (2-0)</span>
+                  <span class="meta-chip">Nevee won game 1</span>
+                  <span class="meta-chip">Nevee won game 2</span>
+                </div>
               </div>
             </div>
 
             <div class="round">
-              <div class="round-title">Championship</div>
+              <div class="round-title">Championship (best of 3)</div>
 
               <div class="match">
-                <div class="slot"><span class="name">Winner Semifinal 1</span><span class="tag">C</span></div>
-                <div class="slot"><span class="name">Winner Semifinal 2</span><span class="tag">C</span></div>
+                <div class="slot winner"><span class="name">NEVEE</span><span class="tag">C</span></div>
+                <div class="slot"><span class="name">AEROH</span><span class="tag">C</span></div>
+                <div class="match-meta">
+                  <span class="meta-chip">Winner: NEVEE (2-1)</span>
+                  <span class="meta-chip">G1: AEROH</span>
+                  <span class="meta-chip">G2: NEVEE — 23.6 (new highest score), winning shot 11 resets</span>
+                  <span class="meta-chip">G3: NEVEE</span>
+                  <span class="meta-chip">Highest rated shot ($50): NEVEE — 23.6</span>
+                </div>
               </div>
             </div>
           </div>
@@ -387,6 +404,7 @@
         <div class="panel reveal">
           <h3>Highest Rated Shot</h3>
           <p><b>$50</b> for the highest rated shot of the event.</p>
+          <p style="margin-top: 10px;"><b>Winner:</b> Nevee — 23.6 (finals game 2, 11 resets)</p>
         </div>
 
         <div class="panel reveal">
